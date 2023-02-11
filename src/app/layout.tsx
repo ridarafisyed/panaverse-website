@@ -1,5 +1,7 @@
+"use client";
 import "./globals.css";
-import ChakraWrapper from "@/components/chakraWrapper";
+import ChakraWrapper from "@/layout/chakraWrapper";
+import { Box } from "@chakra-ui/react";
 export default function RootLayout({
   children,
 }: {
